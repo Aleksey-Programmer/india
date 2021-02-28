@@ -1,0 +1,28 @@
+body{
+    background-color: grey;
+    margin: 0;
+}
+
+header{
+
+}
+
+.logo{
+    /* background-color: orange; */
+    text-align: center;
+    background: #f8a201 url(../img/rightbg1.jpg) no-repeat;
+    
+}
+
+.navigation ul{
+    list-style: none;
+    
+}
+
+.navigation li{
+    display: inline-block;
+    width: 33%;
+    height: 30px;
+    background-color: lightsalmon;
+    text-align: center;
+}
