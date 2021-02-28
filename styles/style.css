@@ -1,9 +1,12 @@
 body{
     background-color: grey;
     margin: 0;
+    padding: 0;
 }
 
 header{
+    border: 1px solid red;
+    padding: 0;
 
 }
 
@@ -11,18 +14,24 @@ header{
     /* background-color: orange; */
     text-align: center;
     background: #f8a201 url(../img/rightbg1.jpg) no-repeat;
-    
+    background-position: cover;
+    /* border: 1px solid green; */
 }
 
 .navigation ul{
     list-style: none;
-    
+    margin: 0;
+    padding: 0;
+    background-color: lightsalmon;
 }
 
 .navigation li{
     display: inline-block;
     width: 33%;
-    height: 30px;
+    height: 40px;
     background-color: lightsalmon;
     text-align: center;
+    vertical-align: middle;
+    border: 1px solid white;
+    font-size: 30px;
 }
