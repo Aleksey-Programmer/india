@@ -5,7 +5,7 @@ body{
 }
 
 header{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 0;
     margin: 0;
 
@@ -19,20 +19,21 @@ header{
     /* border: 1px solid green; */
 }
 
-.navigation ul{
+.navigation_list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300, 1fr));
+    gap: 10px;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     background-color: lightsalmon;
 }
 
 .navigation li{
-    display: inline-block;
-    width: 33%;
-    height: 40px;
+    display: block;
+    
+
     background-color: lightsalmon;
-    text-align: center;
-    vertical-align: middle;
     border: 1px solid white;
     font-size: 30px;
 }
